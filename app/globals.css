@@ -233,8 +233,8 @@ p {
 
 .community-card {
   position: absolute;
-  left: 34px;
-  right: auto;
+  left: auto;
+  right: 47%;
   bottom: 34px;
   z-index: 3;
   display: flex;
@@ -267,8 +267,8 @@ p {
 .hero-visual > .phone-shell {
   position: absolute;
   top: auto;
-  right: 6%;
-  bottom: -9%;
+  right: 11%;
+  bottom: -7%;
   width: min(250px, 30vw);
   min-height: 492px;
   margin: 0;
@@ -1070,7 +1070,7 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: 18px;
+    left: 22px;
     right: auto;
     bottom: 28px;
     min-height: 44px;
