@@ -233,7 +233,7 @@ p {
 
 .community-card {
   position: absolute;
-  left: 28%;
+  left: 31%;
   right: auto;
   bottom: 34px;
   z-index: 3;
@@ -944,7 +944,7 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: 248px;
+    left: 270px;
     right: auto;
     bottom: 30px;
   }
@@ -1084,7 +1084,7 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: 164px;
+    left: 174px;
     right: auto;
     bottom: 28px;
     min-height: 44px;
