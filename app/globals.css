@@ -267,67 +267,67 @@ p {
 .hero-visual > .phone-shell {
   position: absolute;
   top: auto;
-  right: -10%;
-  bottom: -16%;
-  width: min(178px, 28vw);
-  min-height: 352px;
+  right: 6%;
+  bottom: -9%;
+  width: min(250px, 30vw);
+  min-height: 492px;
   margin: 0;
-  padding: 11px;
-  border-width: 7px;
-  border-radius: 28px;
-  box-shadow: 0 20px 46px rgba(16, 33, 24, 0.28);
+  padding: 17px;
+  border-width: 8px;
+  border-radius: 36px;
+  box-shadow: 0 30px 64px rgba(16, 33, 24, 0.3);
 }
 
 .hero-visual .map-panel {
-  height: 158px;
-  border-radius: 18px;
-  background-size: 26px 26px;
+  height: 240px;
+  border-radius: 24px;
+  background-size: 34px 34px;
 }
 
 .hero-visual .phone-shell::before {
-  top: 8px;
-  width: 56px;
-  height: 5px;
+  top: 10px;
+  width: 74px;
+  height: 6px;
 }
 
 .hero-visual .phone-top {
-  padding: 12px 1px 9px;
-  font-size: 0.74rem;
+  padding: 15px 2px 12px;
+  font-size: 0.88rem;
 }
 
 .hero-visual .phone-brand img {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
 }
 
 .hero-visual .run-card {
-  margin-top: 9px;
-  padding: 10px;
-  border-radius: 16px;
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 20px;
 }
 
 .hero-visual .run-card strong {
-  font-size: 1.14rem;
+  font-size: 1.6rem;
 }
 
 .hero-visual .run-card button {
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
 }
 
 .hero-visual .phone-stats {
-  gap: 5px;
-  margin-top: 8px;
+  gap: 7px;
+  margin-top: 10px;
 }
 
 .hero-visual .phone-stats span {
-  padding: 7px 3px;
-  border-radius: 11px;
-  font-size: 0.58rem;
+  padding: 10px 5px;
+  border-radius: 14px;
+  font-size: 0.72rem;
 }
 
 .hero-visual .phone-stats strong {
-  font-size: 0.78rem;
+  font-size: 1rem;
 }
 
 .phone-shell::before {
