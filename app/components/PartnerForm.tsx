@@ -37,7 +37,7 @@ export function PartnerForm() {
       </label>
       <label>
         Email / phone
-        <input type="text" name="contact" placeholder="hello@alaruta.com" />
+        <input type="text" name="contact" placeholder="info@olympushelix.com" />
       </label>
       <button type="submit">
         Send
