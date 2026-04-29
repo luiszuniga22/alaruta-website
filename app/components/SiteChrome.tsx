@@ -39,6 +39,7 @@ export function SiteFooter() {
       <span>En Ruta app</span>
       <span>Latin America</span>
       <span>Partners</span>
+      <span>Powered by Helix</span>
       <Handshake size={18} aria-hidden="true" />
       <MessageCircle size={18} aria-hidden="true" />
       <Smartphone size={18} aria-hidden="true" />

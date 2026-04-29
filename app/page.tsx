@@ -113,11 +113,13 @@ export default function Home() {
         <div className="hero-visual">
           <div className="runner-scene">
             <div className="sun" />
-            <div className="helix-credit">Powered by Helix</div>
             <div className="community-card">
               <Users size={20} aria-hidden="true" />
               <span>12 runners nearby</span>
             </div>
+            <a className="helix-credit" href="https://olympushelix.com">
+              Powered by Helix
+            </a>
           </div>
           <PhoneMockup />
         </div>

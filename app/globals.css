@@ -233,9 +233,9 @@ p {
 
 .community-card {
   position: absolute;
-  left: 27%;
+  left: 24%;
   right: auto;
-  bottom: 34px;
+  bottom: 88px;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -252,8 +252,8 @@ p {
 
 .helix-credit {
   position: absolute;
-  left: 34px;
-  top: 26px;
+  left: 24%;
+  bottom: 38px;
   z-index: 3;
   min-height: 38px;
   padding: 0 14px;
@@ -266,6 +266,10 @@ p {
   font-size: 0.78rem;
   font-weight: 900;
   backdrop-filter: blur(12px);
+}
+
+.helix-credit:hover {
+  background: rgba(16, 33, 24, 0.56);
 }
 
 .phone-shell {
@@ -962,9 +966,14 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: 226px;
+    left: 256px;
     right: auto;
-    bottom: 30px;
+    bottom: 88px;
+  }
+
+  .hero-visual .helix-credit {
+    left: 256px;
+    bottom: 42px;
   }
 
   .feature-row,
@@ -1102,17 +1111,17 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: 150px;
+    left: 162px;
     right: auto;
-    bottom: 28px;
+    bottom: 84px;
     min-height: 44px;
     padding: 0 14px;
     font-size: 0.78rem;
   }
 
   .hero-visual .helix-credit {
-    left: 18px;
-    top: 18px;
+    left: 162px;
+    bottom: 42px;
     min-height: 34px;
     padding: 0 12px;
     font-size: 0.7rem;
