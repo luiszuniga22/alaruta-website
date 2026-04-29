@@ -1,0 +1,6 @@
+.next/
+node_modules/
+out/
+*.log
+alaruta-mobile-*.png
+alaruta-static-site.zip
