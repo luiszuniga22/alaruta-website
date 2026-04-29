@@ -233,9 +233,9 @@ p {
 
 .community-card {
   position: absolute;
-  left: auto;
-  right: 34px;
-  bottom: 34px;
+  left: 28%;
+  right: auto;
+  bottom: 108px;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -943,6 +943,12 @@ footer span:first-child {
     bottom: -72px;
   }
 
+  .hero-visual .community-card {
+    left: 248px;
+    right: auto;
+    bottom: 102px;
+  }
+
   .feature-row,
   .event-list,
   .local-grid,
@@ -1078,9 +1084,9 @@ footer span:first-child {
   }
 
   .hero-visual .community-card {
-    left: auto;
-    right: 18px;
-    bottom: 28px;
+    left: 164px;
+    right: auto;
+    bottom: 82px;
     min-height: 44px;
     padding: 0 14px;
     font-size: 0.78rem;
