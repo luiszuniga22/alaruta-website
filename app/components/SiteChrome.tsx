@@ -40,7 +40,7 @@ export function SiteFooter() {
       <span>Latin America</span>
       <span>Partners</span>
       <span>Powered by Helix</span>
-      <a href="https://olympushelix.com/enruta/privacy">Privacy</a>
+      <a href="https://alaruta.com/enruta/privacy">Privacy</a>
       <Handshake size={18} aria-hidden="true" />
       <MessageCircle size={18} aria-hidden="true" />
       <Smartphone size={18} aria-hidden="true" />
