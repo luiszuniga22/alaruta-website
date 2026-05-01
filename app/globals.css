@@ -231,6 +231,28 @@ p {
   box-shadow: 0 0 80px rgba(242, 240, 138, 0.7);
 }
 
+.hero-route-text {
+  position: absolute;
+  right: 10%;
+  bottom: 28%;
+  z-index: 3;
+  display: grid;
+  gap: 4px;
+  color: var(--background);
+  font-family: var(--font-montserrat), "Poppins", system-ui, sans-serif;
+  font-size: clamp(1.8rem, 3.8vw, 3.35rem);
+  font-weight: 900;
+  font-style: italic;
+  line-height: 0.98;
+  text-transform: uppercase;
+  text-shadow: 0 6px 22px rgba(16, 33, 24, 0.48);
+  transform: rotate(-2deg);
+}
+
+.hero-route-text span {
+  display: block;
+}
+
 .community-card {
   position: absolute;
   left: 24%;
@@ -1036,6 +1058,12 @@ footer span:first-child {
     bottom: 42px;
   }
 
+  .hero-route-text {
+    right: 8%;
+    bottom: 33%;
+    font-size: clamp(1.55rem, 6vw, 3rem);
+  }
+
   .feature-row,
   .event-list,
   .local-grid,
@@ -1185,6 +1213,12 @@ footer span:first-child {
     min-height: 34px;
     padding: 0 12px;
     font-size: 0.7rem;
+  }
+
+  .hero-route-text {
+    right: 7%;
+    bottom: 38%;
+    font-size: clamp(1.28rem, 8vw, 2.15rem);
   }
 
   .map-panel {
